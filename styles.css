@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+:root{
+  background-color: skyblue;
+}
+p:first-child{
+  background-color: black;
+  color: white;
+}
+p:nth-last-child(2){
+  color: red;
+}
+ul{
+  width: 50%;
+}
+li{
+  background-color: white;
+}
+li:nth-child(2),li:nth-child(4){
+  background-color: slategray;
+}
+li:nth-child(3){
+  background-color: pink;
+}
