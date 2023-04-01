@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 :root{
   background-color: skyblue;
 }
@@ -6,7 +5,7 @@ p:first-child{
   background-color: black;
   color: white;
 }
-p:nth-last-child(2){
+p:last-child{
   color: red;
 }
 ul{
